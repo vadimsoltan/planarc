@@ -19,8 +19,9 @@ ENV FRONTEND_DIST_DIR=/app/frontend-dist
 
 COPY backend/ /app/backend/
 
-RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir .
+# Avoid an extra isolated build env during image builds; it is noticeably slower on small droplets.
+RUN pip install --no-cache-dir --upgrade pip setuptools wheel && \
+    pip install --no-cache-dir --no-build-isolation .
 
 COPY --from=frontend-builder /build/frontend/dist /app/frontend-dist
 
