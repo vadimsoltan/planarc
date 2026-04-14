@@ -41,8 +41,8 @@ app/tests/__init__.py
 app/tests/conftest.py
 app/tests/test_auth.py
 app/tests/test_profile_and_seed.py
-wta_backend.egg-info/PKG-INFO
-wta_backend.egg-info/SOURCES.txt
-wta_backend.egg-info/dependency_links.txt
-wta_backend.egg-info/requires.txt
-wta_backend.egg-info/top_level.txt
+planarc_backend.egg-info/PKG-INFO
+planarc_backend.egg-info/SOURCES.txt
+planarc_backend.egg-info/dependency_links.txt
+planarc_backend.egg-info/requires.txt
+planarc_backend.egg-info/top_level.txt

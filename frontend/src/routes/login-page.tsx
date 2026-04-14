@@ -58,7 +58,7 @@ export function LoginPage() {
     <div className="panel-grid flex min-h-screen items-center justify-center px-6 py-12">
       <div className="grid w-full max-w-5xl gap-6 lg:grid-cols-[1.05fr_0.95fr]">
         <div className="rounded-[32px] border border-white/70 bg-ink px-8 py-10 text-white shadow-panel">
-          <p className="text-xs font-semibold uppercase tracking-[0.26em] text-sand/70">Fitness tracker</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.26em] text-sand/70">Planarc</p>
           <h1 className="mt-4 text-4xl font-semibold leading-tight">Private body recomposition workspace.</h1>
           <p className="mt-4 max-w-xl text-base leading-7 text-sand/80">
             A calmer private workspace for logging nutrition, measurements, training, and goals across desktop and mobile.

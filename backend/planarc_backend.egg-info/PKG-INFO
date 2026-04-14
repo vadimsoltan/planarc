@@ -1,7 +1,7 @@
 Metadata-Version: 2.4
-Name: wta-backend
+Name: planarc-backend
 Version: 0.1.0
-Summary: Milestone 1 backend for the WTA fitness tracker
+Summary: Backend for the Planarc private tracking app
 Requires-Python: >=3.13
 Description-Content-Type: text/markdown
 Requires-Dist: alembic<2.0.0,>=1.14.0
@@ -16,7 +16,6 @@ Provides-Extra: dev
 Requires-Dist: httpx<1.0.0,>=0.28.0; extra == "dev"
 Requires-Dist: pytest<9.0.0,>=8.3.0; extra == "dev"
 
-# WTA Backend
+# Planarc Backend
 
-FastAPI backend for the Milestone 1 foundation.
-
+FastAPI backend for the Planarc private tracking app.

@@ -1,4 +1,3 @@
-# WTA Backend
+# Planarc Backend
 
-FastAPI backend for the Milestone 1 foundation.
-
+FastAPI backend for the Planarc private tracking app.

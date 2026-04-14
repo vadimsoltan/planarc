@@ -94,9 +94,9 @@ export function AppShell() {
               </div>
 
               <div className="min-w-0">
-                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-ember">WTA tracker</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-ember">Planarc</p>
                 <div className="mt-1 flex flex-wrap items-center gap-2">
-                  <h1 className="text-xl font-semibold text-ink sm:text-2xl">Private Recomp Tracker</h1>
+                  <h1 className="text-xl font-semibold text-ink sm:text-2xl">Private Recomp Workspace</h1>
                   <span className="rounded-full bg-canvas px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-ink/55">
                     {activeNav.label}
                   </span>

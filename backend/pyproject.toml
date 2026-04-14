@@ -3,9 +3,9 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "wta-backend"
+name = "planarc-backend"
 version = "0.1.0"
-description = "Milestone 1 backend for the WTA fitness tracker"
+description = "Backend for the Planarc private tracking app"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

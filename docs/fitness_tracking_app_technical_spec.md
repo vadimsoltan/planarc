@@ -1,11 +1,11 @@
-# Fitness Tracking App — Technical Specification
+# Planarc — Technical Specification
 
 ## 1. Overview
 
 ### 1.1 Purpose
-Build a private web application for tracking body recomposition over time, with persistent storage, simple authentication, target planning, dashboards, charts, body-fat estimation, and projected next milestones.
+Build Planarc, a private web application for tracking body recomposition over time, with persistent storage, simple authentication, target planning, dashboards, charts, body-fat estimation, and projected next milestones.
 
-The app is optimized for a single user and seeded with the current plan and targets defined in this conversation.
+Planarc is optimized for a single user and seeded with the current plan and targets defined in this conversation.
 
 ### 1.2 Primary Goals
 - Track daily weight, calories, macros, steps, cardio, sleep, and notes.
@@ -1156,4 +1156,3 @@ The app is MVP-complete when:
 3. Frontend wireframes
 4. Starter repository scaffold
 5. Seed script using this conversation’s numbers
-

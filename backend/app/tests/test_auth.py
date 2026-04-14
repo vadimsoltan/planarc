@@ -9,7 +9,7 @@ def test_valid_login_sets_cookie_and_creates_session(client) -> None:
     response = client.post("/api/auth/login", json={"username": "admin", "password": "test-password"})
 
     assert response.status_code == 204
-    assert "wta_session" in response.cookies
+    assert "planarc_session" in response.cookies
 
     with client.app.state.session_factory() as session:
         session_count = session.scalar(select(func.count(AuthSession.id)))
@@ -53,4 +53,3 @@ def test_logout_revokes_session_and_blocks_reuse(client) -> None:
 def test_profile_and_phase_endpoints_are_protected(client) -> None:
     assert client.get("/api/profile").status_code == 401
     assert client.get("/api/phases").status_code == 401
-
